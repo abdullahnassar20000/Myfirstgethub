@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" type="text/css" href="style.css">
+    <style>
+.containt{
+text-align: left;
+
+}
+.json{text-align: center;
+    font-size: larger;
+
+
+}
+#button{position: absolute;
+    float: right;
+    font-size: larger;
+top:30px;
+left: 55%;
+background-color: rgb(129, 100, 100);
+width: 120px;
+height: 70px;
+cursor: pointer;
+}
+/*.button:hover{background-color: rgb(197, 20, 20);}*/
+#button:active{background-color: rgb(0, 255, 136);}
+
+    </style>
+</head>
+<body>
+    <div class ="containt">
+     <div class="json"><h1>json </h1></div> 
+     
+     <button type="button" id="button">  click her </button>
+     <br>
+     <br>
+     <hr>
+<div class ="inner"></div>
+    </div>
+    <script src="ass.js"></Script>
+</body>
+</html>
