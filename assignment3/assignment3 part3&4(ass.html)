@@ -40,6 +40,23 @@ cursor: pointer;
      <hr>
 <div class ="inner"></div>
     </div>
-    <script src="ass.js"></Script>
+    <script>var button = document.getElementById("button");
+console.log("aaaaaaaaaaaaaaaaaaaaa")
+button.addEventListener("click",function(){
+     console.log("rrrrrr")
+var xttp = new XMLHttpRequest();
+xttp.onreadystatechange = function(){
+   if((this.readyState==4)&&(this.status==200)){         
+
+     var res = JSON.parse(this.responseText);
+     document.getElementById("inner").innerHTML=res
+
+
+   }
+
+};
+xttp.open("GET","html/ass.json",true)
+xttp.send(null);
+})</Script>
 </body>
 </html>
