@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel = "stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+    <style>.a {
+      text-align: center;
+      padding-top: 30px;
+      margin:0px 350px 0px 350px;
+      cursor:pointer;
+      border: blue 2px solid;
+      width: 200px;
+      height: 75px;
+      background-color: rgb(42, 165, 89);
+      
+    }
+    .a:active{background-color: burlywood;}
+    
+.absolute1{
+position:absolute;
+top:0px;
+right:0;
+border:2px solid black;
+width:80px;
+height:15px;
+background:#FF9966;
+padding-left:30px;
+cursor: all-scroll;
+
+}
+.absolute2{
+position:absolute;
+top:0px;
+right:0;
+border:2px solid black;
+width:80px;
+height:15px;
+padding-left:30px;
+background:red;
+cursor: crosshair;
+}
+.absolute3{
+position:absolute;
+top:0px;
+right:0;
+border:2px solid black;
+width:80px;
+height:15px;
+cursor: all-scroll;
+background:#FFFF66;
+padding-left:30px;
+}
+.a1{
+border:2px solid black;
+background:#C0C0C0;
+width:300px;
+height:150px;
+padding:20px;
+position:relative;
+cursor: pointer;
+}
+.a2{
+border:2px solid black;
+background:#C0C0C0;
+width:300px;
+height:150px;
+padding:20px;
+position:relative;
+cursor: pointer;
+}
+.a3{
+border:2px solid black;
+background:#C0C0C0;
+width:300px;
+height:150px;
+padding:20px;
+cursor: pointer;
+position:relative;
+}
+.a1:active{
+
+  background-color: crimson;
+  
+}
+.a2:active{
+
+background-color: rgb(113, 20, 220);
+
+}
+.a3:active{
+
+background-color: rgb(15, 167, 68);
+
+}
+.absolute1:active{
+
+background-color: rgb(220, 150, 20);
+cursor: pointer;
+}
+.absolute2:active{
+cursor: pointer;
+background-color: rgb(63, 20, 220);
+
+}
+.absolute3:active{
+
+background-color: rgb(88, 12, 27);
+cursor: pointer;
+}
+
+
+</style>
+</head>
+<body>
+    
+          <div class ="a">our menu</div>
+      <br>
+      <br>
+      <br>
+
+    <div class="a1">
+    klnlwkvrnlknvnevlknlekrrengoerng
+        lkwgnlkernglkrenglkernglklekbnlrekn
+        lkrenglkenglekrngelknblekrnblekrnblerknbl
+    verevevervvvvvvvvvvvvvvvvvvvvvvvvvvvv
+    vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+    vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+    lkernglrkenglkerngllekbnelknblekrn<div class="absolute1">blekrn</div> </div>
+
+    <div class="a2">
+
+         klnlwkvrnlknvnevlknlekrnoegno
+        lkwgnlkernglkrenglkernglklekbnlrekn
+        lkrenglkenglekrngelknblekrnblekrnblerknbl
+        vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+        vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+        vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+        lkernglrkenglkerngllekbnelknblekrnb<div class="absolute2">lekrn</div>
+    </div>
+
+
+
+      <div class="a3">
+
+          klnlwkvrnlknvnevlknlekrnoeg
+        lkwgnlkernglkrenglkernglklekbnlrekn
+        lkrenglkenglekrngelknblekrnblekrnblerknb
+          vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+          vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+
+          lkernglrkenglkerngllekbnelknblekrnb<div class="absolute3">lekrn</div>
+      </div>
+      
+   
+      </body>
+</html>
